@@ -36,13 +36,13 @@ def run_tests():
 
 def powers(n):
 
-    if (n) == [1, 8, 27, 64]:
+    if (n) == (1,64):
+        print("square and cube")
+
+    elif (n) == (8,27):
         print("Cube")
 
-    elif (n) == [1, 4, 9, 16, 25, 36, 49, 64, 81]:
-        print("Square")
-
-    elif (n) == [1, 64]:
+    elif (n) == (4,9,16,25,36,49,81)
         print("Square and Cube")
 
     else:
