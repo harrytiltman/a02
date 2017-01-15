@@ -45,17 +45,17 @@ def run_tests():
 
 
 def season(month):
-
-    if (month) == "jan" or "feb" or "dec":
+    
+    if (month) == "dec": or (month) == "jan" or (month) == "feb":
         print("Winter")
 
-    elif (month) == "mar" or "apr" or "may":
+    elif (month) == "mar" or (month) == "apr" or (month) == "may":
         print("Spring")
 
-    elif (month) == "jun" or "jul" or "aug":
+    elif (month) == "jun" or (month) == "jul" or (month) == "aug":
         print("Summer")
 
-    elif (month) == "sep" or "oct" or "nov":
+    elif (month) == "sep" or (month) == "oct" or (month) == "nov":
         print("Autumn")
 
     else:
